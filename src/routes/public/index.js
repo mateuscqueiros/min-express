@@ -1,6 +1,7 @@
-var express = require("express");
-var movies = require("./movies.js");
+var movies = require('./movies');
+var users = require('./users');
 
 module.exports = {
   movies,
+  users
 };

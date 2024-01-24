@@ -1,13 +1,15 @@
-const express = require('express')
+/* Movies routes */
 
-const router = express.Router()
+const express = require('express');
+
+const router = express.Router();
 
 router.get('/', (_, res) => {
-  res.send('Movies')
-})
+  res.send('Movies');
+});
 
 router.get('/all', (_, res) => {
-  res.send('All movies')
-})
+  res.send('All movies');
+});
 
-module.exports = router
+module.exports = router;
